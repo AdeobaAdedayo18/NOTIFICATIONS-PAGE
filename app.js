@@ -3,13 +3,13 @@ const markAll = document.getElementById("mark-all");
 const notifications = document.querySelectorAll(".notification");
 calculate();
 markAll.addEventListener("click", e=>{
-    console.log("entered");
+    
     
     const object = document.querySelectorAll(".notification");
-    console.log("selected");
+    
     
     object.forEach(element =>{
-        console.log("about to remove");
+        
         
         element.classList.remove("read");
         const unread = element.querySelector(".unread");
